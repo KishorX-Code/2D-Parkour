@@ -18,6 +18,9 @@ public class Health : MonoBehaviour
     [SerializeField] private int numberofFlashes;
     private SpriteRenderer spriteRend;
 
+    [Header("Death sound")]
+    [SerializeField] private AudioClip deathSound;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -47,6 +50,7 @@ public class Health : MonoBehaviour
                 if (GetComponent<meleeenemy>() != null)
                 GetComponent<meleeenemy>().enabled = false;
                 dead = true;
+                soundmanager.instance.PlaySound(deathSound);
             }
         }
     }
