@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15e3c8793b5658347b63d2e6fe50297d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 2
   activationDelay: 1
   activeTime: 1
 --- !u!114 &8138537128860881509
@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 827c6f2b6bd4b144eaac3015a4a52a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firetraps: []
+  activationdelay: 1
 --- !u!95 &1364918101152779297
 Animator:
   serializedVersion: 5

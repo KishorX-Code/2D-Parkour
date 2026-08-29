@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementDistance: 3
   speed: 5
-  damage: 1
+  damage: 2
 --- !u!212 &5917042393421392017
 SpriteRenderer:
   m_ObjectHideFlags: 0
